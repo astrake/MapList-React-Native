@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, ListView, StyleSheet, Text, Button, Platform, Modal, TouchableHighlight } from 'react-native';
+import { View, ListView, StyleSheet, Text, Button, Platform } from 'react-native';
 import { Actions } from "react-native-router-flux";
 import MapView from 'react-native-maps';
 import RealData from '../branchInfo2.json';
@@ -51,38 +51,9 @@ class Maps extends React.Component {
         this.map.animateToRegion(INIT_REGION);
     }
 
-    setModalVisible(visible) {
-        this.setState({ modalVisible: visible });
-    }
-
     render() {
         return (
             <View style={{ flex: 1, marginTop: Platform.OS === 'ios' ? 64 : 54 }}>
-                {/*<Modal
-                    animationType={"slide"}
-                    transparent={false}
-                    visible={this.state.modalVisible}
-                    onRequestClose={() => { alert("Modal has been closed.") }}
-                >
-                    <View style={{ marginTop: 22 }}>
-                        <View>
-                            <Text>Hello World!</Text>
-
-                            <TouchableHighlight onPress={() => {
-                                this.setModalVisible(!this.state.modalVisible)
-                            }}>
-                                <Text>Hide Modal</Text>
-                            </TouchableHighlight>
-
-                        </View>
-                    </View>
-                </Modal>
-
-                <TouchableHighlight onPress={() => {
-                    this.setModalVisible(true)
-                }}>
-                    <Text>Show Modal</Text>
-                </TouchableHighlight>*/}
                 <Button
                     onPress={() => this.buttonPressed()}
                     title="顯示全部"
