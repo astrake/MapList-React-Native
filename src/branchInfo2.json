@@ -1,0 +1,395 @@
+[
+  {
+    "Id": "1",
+    "GeoPosition": {
+      "latitude": 22.637056,
+      "longitude": 120.294258
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "總管理處",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "0970-636732",
+    "Street": "三民區建國三路327號",
+    "City": "高雄市",
+    "PostalCode": "80749",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "2",
+    "GeoPosition": {
+      "latitude": 22.626084,
+      "longitude": 120.283026
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "營業部",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "0970-636732",
+    "Street": "鹽埕區大仁路141號",
+    "City": "高雄市",
+    "PostalCode": "80341",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "3",
+    "GeoPosition": {
+      "latitude": 22.637056,
+      "longitude": 120.294258
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "三民分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "0970-636732",
+    "Street": "三民區建國三路327號",
+    "City": "高雄市",
+    "PostalCode": "80749",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "4",
+    "GeoPosition": {
+      "latitude": 22.6372431,
+      "longitude": 120.2804711
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "鼓山分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "0970-636732",
+    "Street": "鼓山區鼓山二路131號",
+    "City": "高雄市",
+    "PostalCode": "80446",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "5",
+    "GeoPosition": {
+      "latitude": 22.620705,
+      "longitude": 120.27144
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "臨海分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "0970-636732",
+    "Street": "鼓山區延平街22號",
+    "City": "高雄市",
+    "PostalCode": "80442",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "6",
+    "GeoPosition": {
+      "latitude": 22.647833,
+      "longitude": 120.321024
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "灣子分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "0970-636732",
+    "Street": "三民區建興路391之1號",
+    "City": "高雄市",
+    "PostalCode": "80767",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "7",
+    "GeoPosition": {
+      "latitude": 22.6869785,
+      "longitude": 120.2925084
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "左營分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "0970-636732",
+    "Street": "左營區左營大路327號",
+    "City": "高雄市",
+    "PostalCode": "81346",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "8",
+    "GeoPosition": {
+      "latitude": 22.729471,
+      "longitude": 120.329306
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "楠梓分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "0970-636732",
+    "Street": "楠梓區楠梓路82號",
+    "City": "高雄市",
+    "PostalCode": "81162",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "9",
+    "GeoPosition": {
+      "latitude": 22.667141,
+      "longitude": 120.320268
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "天祥分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "(07)3427762-4",
+    "Street": "三民區天祥一路127號",
+    "City": "高雄市",
+    "PostalCode": "80792",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "10",
+    "GeoPosition": {
+      "latitude": 22.644488,
+      "longitude": 120.342314
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "陽明分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "(07)3804260-4",
+    "Street": "三民區陽明路365號",
+    "City": "高雄市",
+    "PostalCode": "80771",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "11",
+    "GeoPosition": {
+      "latitude": 22.709671,
+      "longitude": 120.292644
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "右昌分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "(07)3657601-5",
+    "Street": "楠梓區軍校路761號",
+    "City": "高雄市",
+    "PostalCode": "81143",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "12",
+    "GeoPosition": {
+      "latitude": 22.6359754,
+      "longitude": 120.3048548
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "八德分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "(07)2371711-5",
+    "Street": "新興區八德一路316號",
+    "City": "高雄市",
+    "PostalCode": "80050",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "13",
+    "GeoPosition": {
+      "latitude": 22.630632,
+      "longitude": 120.300696
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "新興分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "(07)2313141-6",
+    "Street": "新興區中正四路37號",
+    "City": "高雄市",
+    "PostalCode": "80049",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "14",
+    "GeoPosition": {
+      "latitude": 22.6303559,
+      "longitude": 120.2957131
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "前金分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "(07)2888005-9",
+    "Street": "前金區中華三路132號",
+    "City": "高雄市",
+    "PostalCode": "80145",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  },
+  {
+    "Id": "15",
+    "GeoPosition": {
+      "latitude": 22.6215781,
+      "longitude": 120.3072303
+    },
+    "Distance": 1.0,
+    "Title": "",
+    "BranchName": "青年分社",
+    "Service": "存款／放款／外匯",
+    "Email": "abc@example.com",
+    "Phone": "(07)3353186-9",
+    "Street": "苓雅區青年一路179號",
+    "City": "高雄市",
+    "PostalCode": "80252",
+    "State": "台灣",
+    "PhotoUrl": "fp_branch_icon.png",
+    "SmallPhotoUrl": "fp_branch_icon.png"
+  }, {
+		"Id" : "16",
+		"GeoPosition" : {
+			"latitude" : 22.6312198,
+			"longitude" : 120.3264502
+		},
+		"Distance" : 1.0,
+		"Title" : "",
+		"BranchName" : "武廟分社",
+		"Service" : "存款／放款／外匯",
+		"Email" : "abc@example.com",
+		"Phone" : "(07)7158711-3",
+		"Street" : "苓雅區武廟路180號",
+		"City" : "高雄市",
+		"PostalCode" : "80289",
+		"State" : "台灣",
+		"PhotoUrl" : "fp_branch_icon.png",
+		"SmallPhotoUrl" : "fp_branch_icon.png"
+	}, {
+		"Id" : "17",
+		"GeoPosition" : {
+			"latitude" : 22.6160659,
+			"longitude" : 120.2970924
+		},
+		"Distance" : 1.0,
+		"Title" : "",
+		"BranchName" : "苓雅分社",
+		"Service" : "存款／放款／外匯",
+		"Email" : "abc@example.com",
+		"Phone" : "(07)3333121-4",
+		"Street" : "苓雅區成功一路176號",
+		"City" : "高雄市",
+		"PostalCode" : "80249",
+		"State" : "台灣",
+		"PhotoUrl" : "fp_branch_icon.png",
+		"SmallPhotoUrl" : "fp_branch_icon.png"
+	}, {
+		"Id" : "18",
+		"GeoPosition" : {
+			"latitude" : 22.5924954,
+			"longitude" : 120.3082892
+		},
+		"Distance" : 1.0,
+		"Title" : "",
+		"BranchName" : "前鎮分社",
+		"Service" : "存款／放款／外匯",
+		"Email" : "abc@example.com",
+		"Phone" : "(07)8218151-4",
+		"Street" : "前鎮區凱旋四路128號",
+		"City" : "高雄市",
+		"PostalCode" : "80662",
+		"State" : "台灣",
+		"PhotoUrl" : "fp_branch_icon.png",
+		"SmallPhotoUrl" : "fp_branch_icon.png"
+	}, {
+		"Id" : "19",
+		"GeoPosition" : {
+			"latitude" : 22.618925,
+			"longitude" : 120.319045
+		},
+		"Distance" : 1.0,
+		"Title" : "",
+		"BranchName" : "三多分社",
+		"Service" : "存款／放款／外匯",
+		"Email" : "abc@example.com",
+		"Phone" : "(07)7613103-8",
+		"Street" : "苓雅區三多二路224號",
+		"City" : "高雄市",
+		"PostalCode" : "80263",
+		"State" : "台灣",
+		"PhotoUrl" : "fp_branch_icon.png",
+		"SmallPhotoUrl" : "fp_branch_icon.png"
+	}, {
+		"Id" : "20",
+		"GeoPosition" : {
+			"latitude" : 22.609336,
+			"longitude" : 120.334041
+		},
+		"Distance" : 1.0,
+		"Title" : "",
+		"BranchName" : "瑞祥分社",
+		"Service" : "存款／放款／外匯",
+		"Email" : "abc@example.com",
+		"Phone" : "(07)7263471-5",
+		"Street" : "前鎮區瑞北路68號",
+		"City" : "高雄市",
+		"PostalCode" : "80646",
+		"State" : "台灣",
+		"PhotoUrl" : "fp_branch_icon.png",
+		"SmallPhotoUrl" : "fp_branch_icon.png"
+	}, {
+		"Id" : "21",
+		"GeoPosition" : {
+			"latitude" : 22.61087,
+			"longitude" : 120.311059
+		},
+		"Distance" : 1.0,
+		"Title" : "",
+		"BranchName" : "一心分社",
+		"Service" : "存款／放款／外匯",
+		"Email" : "abc@example.com",
+		"Phone" : "(07)3363211",
+		"Street" : "前鎮區一心二路39號",
+		"City" : "高雄市",
+		"PostalCode" : "80652",
+		"State" : "台灣",
+		"PhotoUrl" : "fp_branch_icon.png",
+		"SmallPhotoUrl" : "fp_branch_icon.png"
+	}
+]
