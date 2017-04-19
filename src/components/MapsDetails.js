@@ -40,12 +40,15 @@ const styles = StyleSheet.create({
     }
 });
 
-class MapsDetails extends React.Component {
+export default class MapsDetails extends React.Component {
+
+    static propTypes = {
+        text: React.PropTypes.number.isRequired,
+    }
 
     constructor(props) {
         super(props);
 
-        //Maps.map1.style = { height: 0 };
     }
 
     render() {
@@ -53,6 +56,7 @@ class MapsDetails extends React.Component {
             <View style={styles.container}>
                 <Text style={styles.title}>{RealData[this.props.text].BranchName}</Text>
                 <View style={styles.detail}>
+                    <Image source={require('../asset/fp_branch_icon.png')} style={styles.photo} />
                     <View style={styles.textContainer}>
                         <Text></Text>
                         <Text>{RealData[this.props.text].Street}</Text>
@@ -71,12 +75,10 @@ class MapsDetails extends React.Component {
                         latitudeDelta: 0.0043,
                         longitudeDelta: 0.0034
                     }}
-                    //onRegionChange={this.onRegionChange}
                     style={styles.map}
                 >
                     <MapView.Marker
                         coordinate={RealData[this.props.text].GeoPosition}
-                    //image={mapMarkerImg}
                     />
                 </MapView>
                 <Button title="返回" onPress={Actions.mapslist} />
@@ -84,5 +86,3 @@ class MapsDetails extends React.Component {
         );
     }
 }
-
-export default MapsDetails;

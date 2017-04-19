@@ -67,11 +67,14 @@ class Maps extends React.Component {
                         <MapView.Marker
                             key={marker.Id}
                             coordinate={marker.GeoPosition}
-                            title={marker.BranchName}
-                            description={`${marker.Street} ${marker.City} ${marker.PostalCode}`}
                             onCalloutPress={() => this.calloutPressed(marker.GeoPosition)}
                             liteMode={true}
-                        />
+                        >
+                            <MapView.Callout style={{ width: 140, height: 110 }}>
+                                <Text style={{ fontSize: 15, fontWeight: 'bold' }}>{marker.BranchName}</Text>
+                                <Text selectable>{`${marker.Street}\n${marker.City}\n${marker.State}${marker.PostalCode}\n${marker.Phone}\n${marker.Email}`}</Text>
+                            </MapView.Callout>
+                        </MapView.Marker>
                     ))}
                 </MapView>
                 <Button title="返回" onPress={() => Actions.pop} />
