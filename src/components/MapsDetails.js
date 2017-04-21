@@ -76,6 +76,7 @@ export default class MapsDetails extends React.Component {
                         longitudeDelta: 0.0034
                     }}
                     style={styles.map}
+                    liteMode={true}
                 >
                     <MapView.Marker
                         coordinate={RealData[this.props.text].GeoPosition}

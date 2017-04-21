@@ -62,13 +62,13 @@ class Maps extends React.Component {
                     ref={ref => { this.map = ref; }}
                     region={this.state.region}
                     style={styles.map}
+                    liteMode={true}
                 >
                     {this.state.markers.map(marker => (
                         <MapView.Marker
                             key={marker.Id}
                             coordinate={marker.GeoPosition}
                             onCalloutPress={() => this.calloutPressed(marker.GeoPosition)}
-                            liteMode={true}
                         >
                             <MapView.Callout style={{ width: 140, height: 110 }}>
                                 <Text style={{ fontSize: 15, fontWeight: 'bold' }}>{marker.BranchName}</Text>
