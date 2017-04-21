@@ -101,6 +101,7 @@ class MapsList extends React.Component {
                     showOnLoad={true}
                     allDataOnEmptySearch={true}
                     hideBack={true} // hide back button
+                    focusOnLayout={false} // disable auto focus
                 />
                 {this.state.error ? <Text>Error: {this.state.error}</Text> : null}
                 <ListView

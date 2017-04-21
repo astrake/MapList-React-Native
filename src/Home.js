@@ -7,14 +7,16 @@ import MapsList from './components/MapsList';
 
 class Home extends React.Component {
     render() {
-        return (<Router>
-            <Scene key="root">
-                <Scene key="mapsdetails" component={MapsDetails} getTitle={this.props.title} />
-                <Scene key="maps" component={Maps} title="分社地圖" initial={true} onRight={() => Actions.mapslist()}
-                    rightTitle="清單" />
-                <Scene key="mapslist" component={MapsList} title="營業據點" initial={false} />
-            </Scene>
-        </Router>);
+        return (
+            <Router>
+                <Scene key="root">
+                    <Scene key="mapsdetails" component={MapsDetails} getTitle={this.props.title} />
+                    <Scene key="maps" component={Maps} title="營業據點" initial={false} />
+                    <Scene key="mapslist" component={MapsList} title="營業據點清單" initial={true} onRight={() => Actions.maps()}
+                        rightTitle="地圖" />
+                </Scene>
+            </Router>
+        );
     }
 }
 
